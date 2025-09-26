@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
             // 현재 설정된 언어에 따라 다른 메시지를 표시
             const currentLang = document.querySelector('.lang-btn.active').dataset.lang;
             const message = (currentLang === 'ko')
-                ? '문의: LoopPop@LoopPop.co.kr'
-                : 'Contact: LoopPop@LoopPop.co.kr';
+                ? '문의: looppop@looppop.co.kr'
+                : 'Contact: looppop@looppop.co.kr';
             alert(message);
         });
     }
